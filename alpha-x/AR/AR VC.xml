@@ -1,0 +1,332 @@
+<pdf>
+	<head>
+		<link name='NotoSansThai' type='font' subtype='opentype' src='${nsfont.NotoSansThai_Regular}' src-bold='${nsfont.NotoSansThai_Bold}' bytes='2' />
+		<macrolist>
+			<macro id='nlheader'>
+				<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+					<tr>
+                        <td width='50'></td>
+                        <td width='70pt'></td>
+                        <td width='50pt'></td>
+                        <td width='50pt'></td>
+                        <td width='100pt'></td>
+                        <td width='50pt'></td>
+                        <td width='50pt'></td>
+                        <td width='30pt'></td>
+                        <td width='40pt'></td>
+                        <td width='50pt'></td>
+                    </tr>
+					  <tr>
+                            <td colspan='2' rowspan='3' align='left' vertical-align='top' style='margin-top:-25pt'>
+                                <img style='object-fit: contain;width: 150px;height:150px;' src='${data.logoUrl}' />
+                            </td>
+                        <td colspan='5' font-weight='700' font-size='10pt'>${record.subsidiary} </td>
+                        <td colspan='3' font-weight='700' font-size='11.0pt' align='center'>&#160;&#160;&#160;&#160; AR Invoice Voucher</td>
+                    </tr>
+                    <tr>
+                        <td colspan='4' vertical-align='top' line-height='15pt' margin-top='7pt'>${company.companyaddress} <br /> Tax ID ${company.vatno} <br />
+                            Tel: ${company.tel}</td>
+							<!-- <td align='center' colspan='3' font-weight='700' vertical-align='top'>( ${data.copytexteng} )</td> -->
+<td></td>
+                    </tr>
+					  <!-- <#assign today = .now /> -->
+					  <!-- <tr>
+						<td colspan='6' vertical-align='top'>เลขประจำตัวผู้เสียภาษีอากร ${company.vatno}</td>
+						<td font-weight='700' align='left' vertical-align='top'>Printed Date: </td>
+						<td  vertical-align='top'>${today?string["dd.MM.yyyy"]}</td>
+					  </tr>
+					  <tr>
+						<td colspan='2'></td>
+						<td colspan='6' vertical-align='top'>เบอร์โทร: ${company.tel} Fax: ${company.fax}</td>
+						<td font-weight='700' align='left' vertical-align='top'>Time: </td>
+						<td  vertical-align='top'>${today?string["hh:mm:ss"]}</td>
+					  </tr> -->
+					<tr style='height:16.0pt'>
+						<td colspan='2' style='height:16.0pt;'></td>
+						<td class='xl64'></td>
+						<td class='xl64'></td>
+						<td class='xl64'></td>
+						<td class='xl64'></td>
+						<td colspan='4'></td>
+					</tr>
+				</table>
+					<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+						<tr>
+							<td></td>
+							<td width='20pt'></td>
+							<td width='40pt'></td>
+							<td width='70pt'></td>
+							<td width='70pt'></td>
+							<td width='50pt'></td>
+							<td width='50pt'></td>
+							<td width='50pt'></td>
+							<td width='70pt'></td>
+							<td width='90pt'></td>
+						  </tr>
+					<tr style='height:16.0pt'>
+						<td class='xl69' align='left' colspan='2'>Customer No:</td>
+						<td class='xl68' colspan='4'>${record.entity.entityid}</td>
+						<td class='xl67'></td>
+						<td class='xl67'></td>
+						<td class='xl69' align='left'>Voucher No:</td>
+						<td class='xl67'>${record.custbody_s_inv_voucher}</td>
+					</tr>
+					<tr style='height:16.0pt'>
+						<td class='xl65' align='left' colspan='2'>Cust Name:</td>
+						<td class='xl64' colspan='4'>${record.entity.companyname}</td>
+						<td colspan='2'></td>
+						<td class='xl65' align='left'>Doc. Date:</td>
+						<td>${record.trandate?string["dd.MM.yyyy"]}</td>
+					</tr>
+					<tr style='height:16.0pt'>
+						<td class='xl65' align='left' colspan='2'>Invoice No:</td>
+						<td class='xl64' colspan='4'>${record.tranid}</td>
+						<td colspan='2'></td>
+						<td class='xl65' align='left'>Due Date:</td>
+						<td>${record.duedate?string["dd.MM.yyyy"]}</td>
+					</tr>
+					<tr style='height:16.0pt'>
+						<td class='xl65' align='left' colspan='2'>Memo:</td>
+						<td class='xl64' colspan='4'></td>
+						<td colspan='2'></td>
+						<td class='xl65' align='left'>Currency:</td>
+						<td>${record.currency}</td>
+					</tr>
+					<tr style='height:16.0pt'>
+						<td class='xl65' align='left' style='height:16.0pt' colspan='2'>Posting Period</td>
+						<td class='xl64' colspan='4'> ${record.postingperiod}</td>
+						<td colspan='2'></td>
+						<td class='xl65' align='left'>Ex. Rate:</td>
+						<td>${record.exchangerate}</td>
+					</tr>
+					<tr style='height:16.0pt'>
+						<td colspan='10' style='height:16.0pt;'></td>
+					</tr>
+				</table>
+			</macro>
+			<macro id='nlfooter'>
+				<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+					<tr style='height:16.0pt'>
+						<td width='10pt'></td>
+						<td class='xl66' colspan='2' style='height:16.0pt'>Prepared By:</td>
+						<td width='7pt'></td>
+						<td class='xl66' colspan='2'>Reviewed By:</td>
+						<td width='7pt'></td>
+						<td class='xl66' colspan='2'>Approved By:</td>
+						<td width='7pt'> </td>
+						<td class='xl66' colspan='2'>Receipted By:</td>
+						<td width='10pt'></td>
+					</tr>
+					<tr style='height:46.0pt'>
+						<td></td>
+						<td class='xl70' colspan='2' style='height:16.0pt'></td>
+						<td></td>
+						<td class='xl70' colspan='2'></td>
+						<td></td>
+						<td class='xl70' colspan='2'></td>
+						<td></td>
+						<td class='xl70' colspan='2'></td>
+						<td></td>
+					</tr>
+					<tr style='height:16.0pt'> </tr>
+					<tr style='height:16.0pt'>
+						<td></td>
+						<td class='xl70' align='left' style='height:16.0pt' colspan='2'></td>
+						<td></td>
+						<td class='xl70' align='left' colspan='2'> </td>
+						<td></td>
+						<td class='xl70' align='left' colspan='2'> </td>
+						<td></td>
+						<td class='xl70' align='left' colspan='2'> </td>
+						<td></td>
+					</tr>
+				</table>
+			</macro>
+		</macrolist>
+		<style type='text/css'>           											*{				font-family: NotoSans, NotoSansThai, sans-serif;				}
+.style0
+{
+align:general;
+vertical-align:bottom;
+white-space:nowrap;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+border:none;
+}
+td
+{
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+color:black;
+font-size:9.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Calibri, sans-serif;
+align:general;
+vertical-align:bottom;
+border:none;
+white-space:nowrap;
+}
+.xl63
+{
+align:center;}
+.xl64
+{
+align:left;}
+.xl65
+{
+font-weight:700;}
+.xl66
+{
+font-weight:700;
+align:center;}
+.xl67
+{
+border-top:.5pt solid ;
+border-right:none;
+border-bottom:none;
+border-left:none;}
+.xl68
+{
+align:left;
+border-top:.5pt solid ;
+border-right:none;
+border-bottom:none;
+border-left:none;}
+.xl69
+{
+font-weight:700;
+border-top:.5pt solid ;
+border-right:none;
+border-bottom:none;
+border-left:none;}
+.xl70
+{
+border-top:none;
+border-right:none;
+border-bottom:.5pt solid ;
+border-left:none;}
+.xl71
+{
+font-weight:700;
+align:center;
+vertical-align:middle;
+border:.5pt solid ;}
+.xl72
+{
+font-weight:700;
+align:left;}
+.xl73
+{
+font-weight:700;
+align:center;
+vertical-align:middle;
+border-top:.5pt solid ;
+border-right:none;
+border-bottom:.5pt solid ;
+border-left:.5pt solid ;}
+.xl74
+{
+font-weight:700;
+align:center;
+border-top:.5pt solid ;
+border-right:none;
+border-bottom:.5pt solid ;
+border-left:none;}
+.xl75
+{
+font-weight:700;
+align:center;
+border-top:.5pt solid ;
+border-right:.5pt solid ;
+border-bottom:.5pt solid ;
+border-left:none;}
+.xl76
+{
+align:center;
+vertical-align:middle;}
+.xl77
+{
+align:left;
+vertical-align:top;}		</style>
+	</head>
+	<body header='nlheader' header-height='24.5%' footer='nlfooter' footer-height='21%' padding='0.2in 0.2in 0.2in 0.2in' size='A4'>
+		<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+			<tr>
+				<td style='width:60pt'></td>
+				<td style='width:65pt'></td>
+				<td style='width:45pt'></td>
+				<td style='width:45pt'></td>
+				<td style='width:35pt'></td>
+				<td style='width:30pt'></td>
+				<td style='width:40pt'></td>
+				<td style='width:40pt'></td>
+				<td style='width:45pt'></td>
+				<td style='width:45pt'></td>
+			</tr>
+			<tr style='height:10.0pt'>
+				<td class='xl71' style='height:16.0pt'>Item code</td>
+				<td class='xl71' style='border-left:none'>GL Acct.</td>
+				<td class='xl71' style='border-left:none'>Dep.</td>
+				<td class='xl71' style='border-left:none'>BU</td>
+				<td colspan='4' class='xl73' style='border-right:.5pt solid black;border-left:  none;'>Description</td>
+				<td class='xl71' style='border-left:none'>Debit</td>
+				<td class='xl71' style='border-left:none'>Credit</td>
+			</tr>
+			<#assign x =1/>
+			<#list data.glLines as glLine>
+			<tr style='height:16.0pt'>
+				<td align='left' style='height:16.0pt' vertical-align='middle'> &#160; ${glLine.item}</td>
+				<td class='xl63' vertical-align='middle'>${glLine.accountnumber}</td>
+				<td class='xl63' vertical-align='middle'>${glLine.deptCode?keep_before(" ")}</td>
+				<td class='xl63' vertical-align='middle'>${glLine.classCode?keep_before(" ")}</td>
+				<td colspan='4' class='xl68' style='border-top:none' vertical-align='middle'>${glLine.account}</td>
+				<td align='right' vertical-align='middle'>${glLine.debitamount}&#160;</td>
+				<td align='right' vertical-align='middle'>${glLine.creditamount}&#160;</td>
+			</tr>
+			</#list>
+			<#if x lte 9>
+			<#assign y=9-x>
+			<#else>
+			<#assign y=x%9> </#if>
+			<#list 1..y as i>
+			<tr style='height:16.0pt'>
+				<td align='left' style='height:16.0pt'> </td>
+				<td class='xl63'></td>
+				<td class='xl63'></td>
+				<td class='xl63'></td>
+				<td colspan='4' class='xl68' style='border-top:none'></td>
+				<td align='right'></td>
+				<td></td>
+			</tr>
+
+			<#assign x =x+1/> </#list>
+			<tr style='height:16.0pt'>
+				<td class='xl70' style='height:16.0pt'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+				<td class='xl70'></td>
+			</tr>
+			<tr style='height:16.0pt'>
+				<td colspan='6' class='xl68' style='border-top:none;'>( ${data.totaleng?c_upper_case} )</td>
+				<td></td>
+				<td class='xl65' align='left'>Total</td>
+				<td align='right'>${data.totalDebit}</td>
+				<td align='right'>${data.totalCredit}</td>
+			</tr>
+
+		</table>
+	</body>
+</pdf>

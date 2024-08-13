@@ -1,0 +1,404 @@
+<pdf>
+    <head>
+        <link name='NotoSansThai' type='font' subtype='opentype' src='${nsfont.NotoSansThai_Regular}' src-bold='${nsfont.NotoSansThai_Bold}' bytes='2' />
+        <macrolist>
+            <macro id='nlheader'>
+                <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+                    <tr>
+                        <td width='50'></td>
+                        <td width='70pt'></td>
+                        <td width='50pt'></td>
+                        <td width='50pt'></td>
+                        <td width='40pt'></td>
+                        <td width='60pt'></td>
+                        <td width='80pt'></td>
+                        <td width='50pt'></td>
+                        <td width='50pt'></td>
+                        <td width='30pt'></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan='6' align='left' vertical-align='top' rowspan='3'>
+                            <img style='object-fit: contain;width: 200px;height:113px;' src='${data.logoUrl}' />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='4' vertical-align='top'>
+                            <span font-weight='700'> ${company.companyname} </span> <br /> ${company.companyaddress} <br /> tttTax ID No. ${company.vatno} Tel. ${company.tel}</td>
+                    </tr>
+                </table>
+
+            </macro>
+            <macro id='nlfooter'> </macro>
+        </macrolist>
+        <style type='text/css'>
+            *{
+                font-family: NotoSans, NotoSansThai, sans-serif;
+                }
+      .style0 {
+        text-align: general;
+        vertical-align: bottom;
+        white-space: nowrap;
+
+        color: black;
+        font-size: 9.0pt;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-family: Calibri, sans-serif;
+
+        border: none;
+      }
+      td {
+        padding-top: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+
+        color: black;
+        font-size: 9.0pt;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-family: Calibri, sans-serif;
+
+        text-align: general;
+        vertical-align: bottom;
+        border: none;
+
+        white-space: nowrap;
+      }
+      .xl63 {
+        text-align: center;
+        vertical-align: middle;
+      }
+      .xl64 {
+        text-align: left;
+        vertical-align: middle;
+      }
+      .xl65 {
+        vertical-align: middle;
+      }
+      .xl66 {
+        text-align: left;
+        vertical-align: middle;
+      }
+      .xl67 {
+        font-weight: 700;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .xl68 {
+        font-size: 18pt;
+        font-weight: 700;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .xl69 {
+        text-align: right;
+        vertical-align: middle;
+      }
+      .xl70 {
+        text-align: center;
+        vertical-align: middle;
+        border-top: none;
+        border-right: none;
+        border-bottom: 0.5pt solid;
+        border-left: none;
+      }
+      .xl71 {
+        text-align: left;
+        vertical-align: middle;
+        white-space: normal;
+      }
+      .xl72 {
+        text-align: center;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl73 {
+        text-align: left;
+        vertical-align: top;
+        white-space: normal;
+      }
+      .xl74 {
+        text-align: left;
+        vertical-align: top;
+      }
+    </style>
+    </head>
+
+    <body header='nlheader' header-height='10%' footer='nlfooter' footer-height='5%' padding='0.2in 0.2in 0.2in 0.2in' size='A4'>
+
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+            <tr>
+                <td width='30pt'></td>
+                <td width='50pt'></td>
+                <td width='55pt'></td>
+                <td width='55pt'></td>
+                <td width='50pt'></td>
+                <td width='70pt'></td>
+                <td width='50pt'></td>
+                <td width='50pt'></td>
+                <td width='30pt'></td>
+                <td width='30pt'></td>
+                <td width='40pt'></td>
+            </tr>
+
+            <tr  style='height: 24pt'>
+                <td class='xl68' align='center' colspan='11'>Receipt</td>
+            </tr>
+            <tr  style='height: 20pt'>
+                <td class='xl64'></td>
+                <td class='xl67'>To</td>
+                <td colspan='4' class='xl64'>${record.custrecord_ldb_rcpt_customer.companyname} </td>
+                <td class='xl64'></td>
+                <td class='xl64' align='right'>
+                Date</td>
+                <td colspan='2' class='xl64'>&#160;&#160;&#160;${record.custrecord_ldb_rcpt_date}</td>
+            </tr>
+            <tr style='height: 20pt'>
+                <td></td>
+                <td class='xl67'>Address</td>
+                <td class='xl64' colspan='9'>${data.billAddress} </td>
+            </tr>
+            <tr  style='height: 20pt'>
+                <td ></td>
+                <td class='xl67'>Ref</td>
+                <td colspan='5' rowspan='3' class='xl73' width='348' style='width: 260pt'> Loan Agreenment between ${record.custrecord_ldb_rcpt_customer.companyname} and<br /> ALPHA X COMOANY
+                    LIMITED Date ${record.custrecord_ldb_rcpt_agreement_date?string["dd MMMM yyyy"]} </td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td class='xl64'></td>
+                <td class='xl65'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr height='20' >
+                <td></td>
+                <td class='xl67'>Receipt no.</td>
+                <td class='xl65' align='left' colspan='3'>${record.custrecord_ldb_rcpt_rcptno}</td>
+                <td class='xl65' align='left' >Value Date</td>
+                <td class='xl66' colspan='5' align='left'>${record.custrecord_ldb_rcpt_value_date}</td>
+            </tr>
+            <tr height='40'>
+                <td colspan='2'></td>
+                <td colspan='8' rowspan='2' class='xl71' width='522' style='width: 390pt'>
+                    We have received ${data.totalnetRcv?number?string("#,##0.00")} Baht from you made by transferred/Direct debit to account
+                    to account ${data.rec_bank_acc}.</td>
+                <td class='xl64'></td>
+            </tr>
+        </table>
+        
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+        <tr>
+            <td width='30pt'></td>
+            <td width='50pt'></td>
+            <td width='45pt'></td>
+            <td width='45pt'></td>
+            <td width='40pt'></td>
+            <td width='70pt'></td>
+            <td width='80pt'></td>
+            <td width='50pt'></td>
+            <td width='30pt'></td>
+            <td width='30pt'></td>
+            <td width='30pt'></td>
+        </tr>
+        <#list data.itemarr as item>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td colspan='4' class='xl67' font-weight='700'>Repayment as follows,</td>
+                <td class='xl64'></td>
+                <td class='xl64' colspan='2' font-weight='700'>Balance at Value Date</td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64'>Principal</td>
+                <td class='xl64'></td>
+                <td class='xl69' align='right'>
+                <#if item.principle = '-'>
+                ${item.principle} <#else>
+                ${item.principle?number?string("#,##0.00")}
+                </#if></td>
+                <td class='xl63' align='center'>Baht</td>
+                <td class='xl64'>Principal</td>
+                <td colspan='2' class='xl63' align='right'>${record.custrecordldb_rcpt_prin_balance}</td>
+                <td class='xl63' align='center'>Baht</td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64'>Interest</td>
+                <td class='xl64'></td>
+                <td class='xl69' align='right'>
+                <#if item.interest = '-'>
+                ${item.interest} <#else>
+                ${item.interest?number?string("#,##0.00")}
+                </#if></td>
+                <td class='xl63' align='center'>Baht</td>
+                <td class='xl64'>Interest</td>
+                <td colspan='2' class='xl63' align='right'>
+                <#if record.custrecord_ldb_rcpt_balance_interest?has_content ||record.custrecord_ldb_rcpt_balance_interest??>
+                - <#else>
+                ${record.custrecord_ldb_rcpt_balance_interest?number?string("#,##0.00")}
+                </#if>
+                </td>
+                <td class='xl63' align='center'>Baht</td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64'>Fee</td>
+                <td class='xl64'></td>
+                <td class='xl69' align='right'>
+                <#if item.fee = '-'>
+                ${item.fee} <#else>
+                ${item.fee?number?string("#,##0.00")}
+                </#if></td>
+                <td class='xl63' align='center'>Baht</td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td colspan='2' class='xl63' align='right'></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64' colspan='2'>Net cash received</td>
+                <td class='xl69' align='right'>${item.netRcv?number?string("#,##0.00")}</td>
+                <td class='xl63' align='center'>Baht</td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl63'></td>
+                <td class='xl63'></td>
+                <td></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td colspan='2' class='xl64'>Interest Rate : ${item.interestRate?number?string("#,##0.00")} %</td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            </#list>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl63'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td></td>
+                <td class='xl65'></td>
+                <td class='xl65'></td>
+                <td colspan='4'></td>
+                <td colspan='2' rowspan='2' class='xl63' align='center' style='border-bottom: none'>
+                    <img src='${data.signUrl}' />
+                </td>
+                <td></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td height='21' style='height: 16pt'></td>
+                <td class='xl65'></td>
+                <td class='xl65'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td height='21' style='height: 16pt'></td>
+                <td class='xl65'></td>
+                <td class='xl65'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td colspan='2' class='xl64' align='center'>Signature</td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <tr height='21' style='height: 16pt'>
+                <td height='21' style='height: 16pt'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            <#if data.custisperson = 'false' >
+            <tr height='21' style='height: 16pt'>
+                <td height='21' style='height: 16pt'></td>
+                <td colspan='8' rowspan='2' class='xl73' width='696' style='width: 520pt'>
+
+                Remark : The company withheld 1% withholding tax of interest amounting to ${data.totalnetRcv?number?string("#,##0.00")} baht<br /> from
+                    you as the Representative and will submit to the Revenue Department within 7th of next month.</td>
+                <td class='xl64'></td>
+                <td></td>
+            </tr>
+            </#if>
+            
+            <tr height='21' style='height: 16pt'>
+                <td height='21' style='height: 16pt'></td>
+                <td colspan='2'></td>
+            </tr>
+            <tr height='168' style='height: 128pt'>
+                <td height='168' colspan='11' style='height: 128pt'></td>
+            </tr>
+            <tr height='0' style='display: none'>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+                <td width='87' style='width: 65pt'></td>
+            </tr>
+        </table>
+    </body>
+</pdf>

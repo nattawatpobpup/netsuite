@@ -1,0 +1,243 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+
+<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+<macrolist>
+    <macro id="nlheader">
+  <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl643965' style='height:5pt;width:70pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:80pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:30pt'></td>
+  <td class='xl643965' style='width:40pt'></td>
+  <td class='xl643965' style='width:70pt'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td colspan='10' class='xl653965' style='height:14.4pt;width:555pt;font-size:9.5pt'>${record.subsidiary}</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td colspan='10' class='xl653965' style='height:14.4pt'>${company.compNameeng}</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td colspan='5' class='xl653965' style='height:14.4pt'>${company.comlongAdd}</td>
+  <td colspan='5' class='xl633965' style='font-weight:700;font-size:10.5pt'>ใบรับสินค้าสำเร็จรูป</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl643965' style='height:14.4pt'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl653965' style='height:14.4pt'>เลขที่ใบสำคัญ:</td>
+  <td colspan='2' class='xl653965' align='left'>${record.tranid}</td>
+  <td class='xl653965'>อ้างถึง:</td>
+  <td colspan='4' class='xl653965' align='left'>${record.createdfrom}</td>
+  <td class='xl653965'>วันที่:</td>
+  <td class='xl663965' align='left'>${record.trandate?string["dd/M/yyyy"]}</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td colspan='2' class='xl653965' style='height:14.4pt'>สถานที่เก็บสินค้าหลัก</td>
+  <td class='xl643965' colspan='6' align='left' style='font-size:9pt;'>${record.location}</td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+ </tr>
+   </table>
+	</macro>
+<macro id="nlfooter">
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl643965' style='height:5pt;width:40pt'></td>
+  <td class='xl643965' style='width:70pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:80pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl643965' style='height:14.4pt'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl653965'>ผู้รับสินค้า</td>
+  <td colspan='2' class='xl653965'>${data.userName}</td>
+ </tr>
+  <#assign today = .now />
+ <tr style='height:14.4pt'>
+  <td class='xl643965' style='height:14.4pt'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl653965'></td>
+  <td colspan='2' class='xl653965'>${today?string["dd/MM/yyyy"]} ${today?string["hh:mm"]}</td>
+ </tr>
+ </table>
+	</macro>
+</macrolist>
+<style type="text/css">
+	*{
+	font-family: NotoSans, NotoSansThai, sans-serif;
+	}
+
+.xl153965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:10pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;}
+.xl633965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl643965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:10pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl653965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl663965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl673965
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:right;
+	vertical-align:middle;
+	white-space:nowrap;}
+
+</style>
+</head>
+
+<body header="nlheader" header-height="21%" footer="nlfooter" footer-height="10%" padding="0.2in 0.2in 0.2in 0.2in" size="A5-landscape">
+
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl643965' style='height:5pt;width:30pt'></td>
+  <td class='xl643965' style='width:85pt'></td>
+  <td class='xl643965' style='width:40pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:80pt'></td>
+  <td class='xl643965' style='width:45pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:50pt'></td>
+  <td class='xl643965' style='width:60pt'></td>
+  <td class='xl643965' style='width:70pt'></td>
+ </tr>
+ <tr style='height:18pt'>
+  <td class='xl633965' align='center' style='height:18pt'>ที่</td>
+  <td class='xl633965' align='center'>รหัสสินค้า</td>
+  <td colspan='3' align='center' class='xl633965'>รายการ</td>
+  <td class='xl633965' align='center'>จำนวน</td>
+  <td class='xl633965' align='center'>หน่วย</td>
+  <td class='xl633965' align='center'>ภายในบรรจุ</td>
+  <td class='xl633965' align='center'>ราคา/หน่วย</td>
+  <td class='xl633965' align='center'>จำนวนเงิน(บาท)</td>
+ </tr>
+  <#assign x =1/>
+<#list data.item as item>
+ <tr style='height:18pt'>
+  <td class='xl633965' align='center' style='height:18pt;font-size:9pt'>${x?string("0")}</td>
+  <td class='xl633965' align='center' style='font-size:9pt'>${item.itemno}</td>
+  <td colspan='3' class='xl653965' align='left' style='font-size:9pt'>${item.itemname}</td>
+  <td class='xl633965' align='center' style='font-size:9pt'>${item.qty}</td>
+  <td class='xl633965' align='center' style='font-size:9pt'>${item.unit}</td>
+  <td class='xl633965' align='center' style='font-size:9pt'>${data.itemwo.qtywo?number?string("#,##0.00")}</td>
+  <td class='xl673965' align='right'>${item.rate?number?string("#,##0.00")}</td>
+  <td class='xl673965' align='right'>${item.amount?number?string("#,##0.00")}</td>
+ </tr>
+  <#assign x =x+1/>
+ </#list>
+
+  <#if x lte 10>
+<#assign y=10-x>
+<#else>
+<#assign y=x%10>
+</#if>
+<#list 1..y as i>
+ <tr style='height:18pt'>
+  <td class='xl643965' style='height:18pt'></td>
+  <td class='xl643965'></td>
+  <td colspan='3' class='xl633965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+  <td class='xl643965'></td>
+ </tr>
+ <#assign x =x+1/>
+ </#list>
+
+</table>
+
+</body>
+
+</pdf>

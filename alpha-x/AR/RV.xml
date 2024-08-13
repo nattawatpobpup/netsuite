@@ -1,0 +1,586 @@
+<!DOCTYPE html [
+  <!ENTITY nbsp '&#160;'>
+]>
+<pdf>
+  <head>
+    <link name='NotoSansThai' type='font' subtype='opentype' src='${nsfont.NotoSansThai_Regular}' src-bold='${nsfont.NotoSansThai_Bold}' bytes='2' />
+    <macrolist>
+      <macro id='nlheader'>
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse: collapse; table-layout: fixed; width: 615pt'>
+          <tr>
+              <td width='50'></td>
+              <td width='70pt'></td>
+              <td width='50pt'></td>
+              <td width='50pt'></td>
+              <td width='70pt'></td>
+              <td width='50pt'></td>
+              <td width='90pt'></td>
+              <td width='20pt'></td>
+              <td width='50pt'></td>
+              <td width='40pt'></td>
+            </tr>
+           <tr>
+           <#if record.subsidiary = 'CHAW MANAGEMENT COMPANY LIMITED'>
+            <td colspan='2' rowspan='3' align='left' vertical-align='top'>
+                            <img style='object-fit: contain;width: 120px;height:90px;' src='${data.logoUrl}' />
+                        </td>
+                        <#elseif record.subsidiary = 'SIAM FRANCHISE BUSINESS COMPANY LIMITED'>
+                        <td colspan='2' rowspan='3' align='left' vertical-align='top'>
+                            <img style='object-fit: contain;width: 140px;height:77px;' src='${data.logoUrl}' />
+                        </td>
+                        <#else>
+                            <td colspan='2' rowspan='3' align='left' vertical-align='top' style='margin-top:-25pt'>
+                                <img style='object-fit: contain;width: 150px;height:150px;' src='${data.logoUrl}' />
+                            </td>
+                        </#if>
+                        <td colspan='5' font-weight='700' font-size='10pt'>${record.subsidiary} </td>
+                        <td colspan='3' font-weight='700' font-size='12.0pt' align='center'>Receipt Voucher</td>
+                    </tr>
+                    <tr>
+                        <td colspan='5' vertical-align='top' line-height='15pt' margin-top='7pt'>${company.companyaddress} <br /> เลขประจำตัวผู้เสียภาษีอากร ${company.vatno} <br />
+                            เบอร์โทร: ${company.tel} Fax: ${company.fax} </td>
+                        <!-- <td align='center' colspan='3' font-weight='700' vertical-align='top'>( ${data.copytexteng} )</td> -->
+                    </tr>
+          <!-- <#assign today = .now />
+          <tr>
+            <td colspan='6' vertical-align='top'>เลขประจำตัวผู้เสียภาษีอากร ${company.vatno}</td>
+            <td font-weight='700' align='left' vertical-align='top'>Printed Date: </td>
+            <td vertical-align='top'>${today?string["dd.MM.yyyy"]}</td>
+          </tr>
+          <tr>
+            <td colspan='2'></td>
+            <td colspan='6' vertical-align='top'>เบอร์โทร: ${company.tel} Fax: ${company.fax}</td>
+            <td font-weight='700' align='left' vertical-align='top'>Time: </td>
+            <td vertical-align='top'>${today?string["hh:mm:ss"]}</td>
+          </tr> -->
+
+          <tr style='height: 16pt'>
+            <td class='xl70' style='height: 16pt'></td>
+            <td class='xl70'></td>
+            <td class='xl71'></td>
+            <td class='xl71'></td>
+            <td class='xl71'></td>
+            <td class='xl71'></td>
+            <td class='xl70'></td>
+            <td class='xl70'></td>
+            <td class='xl70'></td>
+            <td class='xl70'></td>
+            <td class='xl69'></td>
+          </tr>
+        </table>
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse: collapse; table-layout: fixed; width: 615pt'>
+            <tr>
+              <td width='20pt'></td>
+              <td width='25pt'></td>
+              <td width='30pt'></td>
+              <td width='40pt'></td>
+              <td width='40pt'></td>
+              <td width='40pt'></td>
+              <td width='50pt'></td>
+              <td width='35pt'></td>
+              <td width='55pt'></td>
+              <td width='30pt'></td>
+              <td width='80pt'></td>
+            </tr>
+          <tr style='height: 16pt'>
+            <td class='xl73' colspan='2' align='left' style='height: 16pt' width='50pt'>Customer No:</td>
+            <td class='xl75' colspan='5' width='230pt'>${record.customer.entityid}</td>
+            <td class='xl74'></td>
+            <td class='xl73' align='left' width='70pt'>Voucher No:</td>
+            <td class='xl73' font-weight='400' colspan='2'>${record.tranid}</td>
+            <!-- <td width='30pt'></td> -->
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl72' colspan='2' align='left' style='height: 16pt'>Cust Name:</td>
+            <td class='xl70' colspan='5'>${record.customer.altname}</td>
+            <td class='xl70'></td>
+            <td class='xl72' align='left'>Doc. Date:</td>
+            <td class='xl70' colspan='2'>${record.createddate?string['dd.MM.yyyy']}</td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl72' colspan='2' align='left' style='height: 16pt'>Address:</td>
+            <td class='xl70' colspan='5'>${data.billAddress}</td>
+            <td class='xl70'></td>
+            <td class='xl72' align='left'>Posting Period:</td>
+            <td class='xl70' colspan='2'>${record.postingperiod}</td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl72' colspan='2' align='left' style='height: 16pt'>Tax ID:</td>
+            <td class='xl70' colspan='5'>${record.customer.vatregnumber}</td>
+            <td class='xl70'></td>
+            <td class='xl72' align='left'>Paid date:</td>
+            <td class='xl70' colspan='2'>${record.trandate?string['dd.MM.yyyy']}</td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl72' colspan='2' vertical-align='top' align='left' style='height: 16pt'>Memo:</td>
+            <td class='xl70' colspan='5' vertical-align='top'>${record.memo}</td>
+            <td class='xl70'></td>
+            <td class='xl72' align='left'></td>
+            <td class='xl70' colspan='2'></td>
+            <!-- <td class='xl72' align='left'>Due Date:</td>
+            <td class='xl70' colspan='2'>${record.duedate}</td> -->
+          </tr>
+        </table>
+      </macro>
+      <macro id='nlfooter'>
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+          <tr style='height:16.0pt'>
+            <td width='10pt'></td>
+            <td align='center' font-weight='700' colspan='2' style='height:16.0pt'>Prepared By:</td>
+            <td width='7pt'></td>
+            <td align='center' font-weight='700' colspan='2'>Reviewed By:</td>
+            <td width='7pt'></td>
+            <td align='center' font-weight='700' colspan='2'>Approved By:</td>
+            <td width='7pt'> </td>
+            <td align='center' font-weight='700' colspan='2'>Receipted By:</td>
+            <td width='10pt'></td>
+          </tr>
+          <tr style='height:46.0pt'>
+            <td></td>
+            <td border-bottom='.5 solid black' colspan='2' style='height:16.0pt'></td>
+            <td></td>
+            <td border-bottom='.5 solid black' colspan='2'></td>
+            <td></td>
+            <td border-bottom='.5 solid black' colspan='2'></td>
+            <td></td>
+            <td border-bottom='.5 solid black' colspan='2'></td>
+            <td></td>
+          </tr>
+          <tr style='height:16.0pt'> </tr>
+          <tr style='height:16.0pt'>
+            <td></td>
+            <td border-bottom='.5 solid black' align='left' style='height:16.0pt' colspan='2'></td>
+            <td></td>
+            <td border-bottom='.5 solid black' align='left' colspan='2'> </td>
+            <td></td>
+            <td border-bottom='.5 solid black' align='left' colspan='2'> </td>
+            <td></td>
+            <td border-bottom='.5 solid black' align='left' colspan='2'> </td>
+            <td></td>
+          </tr>
+        </table>
+      </macro>
+    </macrolist>
+
+    <style type='text/css'>
+          * {
+            font-family: NotoSans, NotoSansThai, sans-serif;
+          }
+      .style0 {
+        align: general;
+        vertical-align: bottom;
+        white-space: nowrap;
+
+        color: black;
+        font-size: 9pt;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-family: Calibri, sans-serif;
+
+        border: none;
+      }
+      td {
+        padding-top: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+
+        color: black;
+        font-size: 9pt;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-family: Calibri, sans-serif;
+
+        align: general;
+        vertical-align: bottom;
+        border: none;
+
+        white-space: nowrap;
+      }
+      .xl65 {
+        align: center;
+        vertical-align: middle;
+      }
+      .xl66 {
+        color: black;
+      }
+      .xl67 {
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: 0.5pt solid;
+        border-bottom: 0.5pt solid;
+        border-left: none;
+      }
+      .xl68 {
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+        border: 0.5pt solid;
+      }
+      .xl69 {
+        vertical-align: middle;
+      }
+      .xl70 {
+        color: black;
+        vertical-align: middle;
+      }
+      .xl71 {
+        color: black;
+        align: left;
+        vertical-align: middle;
+      }
+      .xl72 {
+        color: black;
+        font-weight: 700;
+        vertical-align: middle;
+      }
+      .xl73 {
+        color: black;
+        font-weight: 700;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl74 {
+        color: black;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl75 {
+        color: black;
+        align: left;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl76 {
+        font-weight: 700;
+        vertical-align: middle;
+      }
+      .xl77 {
+        vertical-align: middle;
+        border-top: none;
+        border-right: none;
+        border-bottom: 0.5pt solid;
+        border-left: none;
+      }
+      .xl78 {
+        color: black;
+        border-top: none;
+        border-right: none;
+        border-bottom: 0.5pt solid;
+        border-left: none;
+      }
+      .xl79 {
+        color: black;
+        font-weight: 700;
+        align: center;
+      }
+      .xl80 {
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: 2pt double;
+        border-left: none;
+      }
+      .xl81 {
+        font-weight: 700;
+        align: right;
+        vertical-align: middle;
+      }
+      .xl82 {
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: 0.5pt solid;
+        border-left: 0.5pt solid;
+      }
+      .xl83 {
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: 0.5pt solid;
+        border-left: none;
+      }
+      .xl84 {
+        align: left;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl85 {
+        align: center;
+        vertical-align: middle;
+        border-top: 0.5pt solid;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+      .xl86 {
+        color: black;
+        align: center;
+        vertical-align: middle;
+      }
+      .xl87 {
+        color: black;
+        font-weight: 700;
+        align: left;
+        vertical-align: middle;
+      }
+      .xl88 {
+        color: black;
+        font-size: 16pt;
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+      }
+      .xl89 {
+        color: black;
+        font-weight: 700;
+        align: center;
+        vertical-align: middle;
+      }
+      .xl90 {
+        align: right;
+        vertical-align: middle;
+      }
+      .xl91 {
+        align: left;
+        vertical-align: middle;
+        border-top: none;
+        border-right: none;
+        border-bottom: 2pt double;
+        border-left: none;
+      }
+    </style>
+  </head>
+
+  <body header='nlheader' header-height='23%' footer='nlfooter' footer-height='21%' padding='0.2in 0.2in 0.2in 0.2in' size='A4'>
+    <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:615pt'>
+
+      <tr style='height: 16pt'>
+        <td class='xl69' style='height: 16pt' width='50pt'></td>
+        <td class='xl69' width='65pt'></td>
+        <td class='xl69' width='65pt'></td>
+        <td class='xl69' width='35pt'></td>
+        <td class='xl69' width='35pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='60pt'></td>
+        <td class='xl69' width='80pt'></td>
+        <td class='xl69' width='80pt'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl68' style='height: 16pt'>Type</td>
+        <td class='xl68' colspan='2' style='border-left: none'>Bank</td>
+        <td colspan='3' class='xl82' style='border-right: 0.5pt solid black; border-left: none'>Cheque No./Ref</td>
+        <td class='xl68' style='border-left: none'>Currency</td>
+        <td class='xl68' style='border-left: none'>Ex.Rate</td>
+        <td class='xl68' style='border-left: none'>Amount (Cur)</td>
+        <td class='xl67'>Amount (Baht)</td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl65' style='height: 16pt'>${record.paymentmethod}</td>
+        <td class='xl65' colspan='2'>${record.account}</td>
+        <td colspan='3' class='xl85' border-top='none'>${record.tranid}</td>
+        <td class='xl65'>${record.currency}</td>
+        <td class='xl69' align='right'>${record.exchangerate} &#160;&#160;</td>
+        <td class='xl69' align='right'> ${data.totalDebit?number?string("#,##0.00")}&#160;</td>
+        <td class='xl69' align='right'> ${data.totalDebit?number?string("#,##0.00")}&#160;</td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl69' style='height: 16pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl68' style='height: 16pt'>GL Acct.</td>
+        <td class='xl68' style='border-left: none'>Dep.</td>
+        <td class='xl68' style='border-left: none'>BU</td>
+        <td colspan='5' class='xl82' style='border-right: 0.5pt solid black; border-left: none'>GL Acct. Description</td>
+        <td class='xl68' style='border-left: none'>Debit</td>
+        <td class='xl67'>Credit</td>
+      </tr>
+      <#list data.glLines as glLine>
+      <tr style='height: 16pt'>
+        <td class='xl65' style='height: 16pt'>${glLine.accountnumber}</td>
+        <td class='xl65'>${glLine.deptCode?keep_before(" ")} </td>
+        <td class='xl65'>${glLine.classCode?keep_before(" ")} </td>
+        <td colspan='5' class='xl84' border-top='none'>&#160; ${glLine.account}</td>
+        <td class='xl69' align='right'>${glLine.debit?number?string("#,##0.00")}</td>
+        <td class='xl69' align='right'>${glLine.credit?number?string("#,##0.00")} &#160;</td>
+      </tr>
+      </#list>
+      <tr style='height: 16pt'>
+        <td class='xl69' style='height: 16pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl77' style='height: 16pt'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td colspan='7' class='xl84' style='height: 16pt' border-top='none'> (${data.totaleng?c_upper_case}) </td>
+        <td class='xl76' align='right'>Total</td>
+        <td class='xl69' align='right'>${data.totalDebit?number?string("#,##0.00")}</td>
+        <td class='xl69' align='right' >${data.totalCredit?number?string("#,##0.00")}&#160;</td>
+        <td class='xl69'></td>
+      </tr>
+      <tr height='23' style='height: 17pt'>
+        <td height='23' class='xl69' style='height: 17pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr height='23' style='height: 17pt'>
+        <td height='23' class='xl69' style='height: 17pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td colspan='2' class='xl81'>ยอดสุทธิรับ</td>
+        <td colspan='2' class='xl91' align='center'>${data. rvamount?number?string("#,##0.00")}</td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr height='23' style='height: 17pt'>
+        <td height='23' class='xl69' style='height: 17pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+    </table>
+    <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:615pt'>
+
+      <tr style='height: 6pt'>
+        <td class='xl69' width='75pt'></td>
+        <td class='xl69' width='75pt'></td>
+        <td class='xl69' width='60pt'></td>
+        <td class='xl69' width='30pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='60pt'></td>
+        <td class='xl69' width='50pt'></td>
+        <td class='xl69' width='70pt'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl68' style='height: 16pt'>Inv. Voucher</td>
+        <td class='xl68' style='border-left: none'>Inv. No.</td>
+        <td class='xl68' style='border-left: none'>Date</td>
+        <td colspan='4' class='xl82' style='border-right: 0.5pt solid black; border-left: none'>Description</td>
+        <td class='xl68' style='border-left: none'>Amount</td>
+        <td class='xl68' style='border-left: none'>Vat</td>
+        <td class='xl67'>Total</td>
+      </tr>
+      <#assign totalamt = 0/>
+      <!-- <#assign total=0/> -->
+      <#list data.billLines as bill>
+      <tr style='height: 16pt'>
+        <td class='xl69' align='left' style='height: 16pt'>&#160;&#160;${bill.tranid}</td>
+        <td class='xl69' align='left'>&#160;&#160;${bill.tranid}</td>
+        <td class='xl69' align='center'>${bill.Date?date?string['dd.MM.yyyy']}</td>
+        <td colspan='4' class='xl84' border-top='none'>&#160;&#160;${bill.memo}</td>
+        <td class='xl69' align='right'> ${bill.amount?number?string("#,##0.00")} &#160;</td>
+        <td class='xl69' align='right'>${bill.vat?number?string("#,##0.00")} &#160;</td>
+        <td class='xl69' align='right'>${bill.total?number?string("#,##0.00")} &#160;</td>
+        <!-- <td class='xl69'></td> -->
+      </tr>
+      <#assign totalamt = totalamt+bill.total?replace(",","")?number/>
+      </#list>
+      <tr style='height: 16pt'>
+        <td class='xl69' style='height: 16pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr style='height: 16pt'>
+        <td class='xl77' style='height: 16pt'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl77'></td>
+        <td class='xl69'></td>
+      </tr>
+      <tr height='23' style='height: 17pt'>
+        <td height='23' class='xl69' style='height: 17pt'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl69'></td>
+        <td class='xl76' colspan='2' align='right'>Total amount &#160;</td>
+        <td class='xl80' align='right' style='border-top: none'>${totalamt?number?string("#,##0.00")}&#160; </td>
+        <td class='xl69'></td>
+      </tr>
+    </table>
+  </body>
+</pdf>

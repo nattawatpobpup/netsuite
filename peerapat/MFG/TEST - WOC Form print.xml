@@ -1,0 +1,785 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+
+<link rel=File-List href="NS00325%20Spec%20ใบรับเข้าคลังสินค้า.fld/filelist.xml">
+<style type="text/css">
+    *{
+        font-family: NotoSans, NotoSansThai, sans-serif;
+    }
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl70
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl72
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl73
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl74
+	{mso-style-parent:style0;
+	text-align:right;}
+.xl75
+	{mso-style-parent:style0;
+	text-align:left;}
+</style>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<div id="NS00325 Spec ใบรับเข้าคลังสินค้า_6773" align=center
+x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1048 style='border-collapse:
+ collapse;table-layout:fixed;width:783pt'>
+ <col width=87 span=7 style='width:65pt'>
+ <col width=91 style='mso-width-source:userset;mso-width-alt:2901;width:68pt'>
+ <col width=87 span=4 style='width:65pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl65 width=87 style='height:15.0pt;width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=91 style='width:68pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl66 width=87 style='width:65pt'>&nbsp;</td>
+  <td class=xl67 width=87 style='width:65pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl74>ส่วนของพัสดุ</td>
+  <td colspan=2 class=xl75>${item.xxx}x</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl74>ลงชื่อ</td>
+  <td colspan=2 class=xl75>${item.userName}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl74>วันที่</td>
+  <td colspan=2 class=xl75>${item.printDate}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td colspan=4 class=xl73>ป้ายแสดงสถานะสินค้าสำเร็จรูป</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>สถานะ</td>
+  <td></td>
+  <td align=left>ผ่าน</td>
+  <td></td>
+  <td></td>
+  <td align=left>ไม่ผ่าน</td>
+  <td></td>
+  <td></td>
+  <td colspan=2 align=left style='mso-ignore:colspan'>รอการตรวจสอบ</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>วันที่</td>
+  <td colspan=4 class=xl75>${item.createFromActualProductionStartDate}</td>
+  <td></td>
+  <td align=left>เลขที่เอกสาร</td>
+  <td colspan=3 class=xl75>${item.createFromOrder}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>ชื่อ</td>
+  <td colspan=4 class=xl75>${item.assembly}</td>
+  <td></td>
+  <td align=left>จำนวน</td>
+  <td colspan=3 class=xl75>${item.pallet}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>LOT:</td>
+  <td colspan=4 class=xl75>${item.lot}</td>
+  <td></td>
+  <td class=xl75><span style='mso-spacerun:yes'> </span>ขนาดบรรจุ</td>
+  <td colspan=3 class=xl75>${item.packSize}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td colspan=3 align=left style='mso-ignore:colspan'>อ้างอิงใบรายงานการตรวจสอบเลขที่</td>
+  <td colspan=7 class=xl75>${item.qcId}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>ลงชื่อ</td>
+  <td colspan=4 class=xl75>${item.qcEmployeeName}</td>
+  <td></td>
+  <td align=left>แผนก</td>
+  <td colspan=3 class=xl75>ความคุมคุณภาพ</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>ระบุสาเหตุ</td>
+  <td colspan=9 class=xl75>${item.cause}</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td colspan=10 class=xl75>หมายเหตุ<span style='mso-spacerun:yes'> 
+  </span>ผ่าน : ป้ายเขียว<span style='mso-spacerun:yes'>    </span>ไม่ผ่าน :
+  ป้ายชมพู<span style='mso-spacerun:yes'>     </span>รอการตรวจสอบ : ป้ายเหลือง</td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td colspan=10 class=xl75>*ระบุสาเหตุกรณี<span style='mso-spacerun:yes'> 
+  </span>ไม่ผ่าน และ รอการตรวจสอบ<span style='mso-spacerun:yes'>       
+  </span>QMS-FM-QC-25(R00.,15/12/2007)<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td align=left>Inspected By</td>
+  <td colspan=4 class=xl75></td>
+  <td></td>
+  <td align=left>Stored By</td>
+  <td colspan=3 class=xl75></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl65>&nbsp;</td>
+  <td class=xl66>&nbsp;</td>
+  <td class=xl66>&nbsp;</td>
+  <td class=xl67>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl68>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl70>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl72>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td colspan=6 class=xl73>${item.xxx}${item.xxx}xx</td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class=xl69>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl70 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl71>&nbsp;</td>
+  <td class=xl72>&nbsp;</td>
+ </tr>
+
+ <tr height=0 style='display:none'>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=91 style='width:68pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+ </tr>
+</table>
+
+</div>
+
+</body>
+
+</pdf>

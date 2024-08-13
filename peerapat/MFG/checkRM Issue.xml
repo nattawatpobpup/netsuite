@@ -1,0 +1,516 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+
+<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+<macrolist>
+    <macro id="nlheader">
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+
+ <tr style='height:5pt'>
+  <td class='xl6326437' style='height:5pt;width:60pt'></td>
+  <td class='xl6326437' style='width:140pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:10pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+ </tr>
+ <tr style='height:14pt'>
+  <td class='xl6326437' style='height:14pt;width:60pt'></td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' colspan='6' align='left' style='width:160pt;font-weight:700;font-size:10pt'>ใบรายงานตรวจสอบวัตถุดิบก่อนผลิต</td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' style='width:50pt;font-weight:700' align='center'>ส่ง:</td>
+  <td colspan='2' align='left' class='xl7426437' style='width:100pt;font-weight:700'>${data.requesteddate}</td>
+ </tr>
+ <tr style='height:10pt'>
+  <td class='xl6326437' style='height:10pt'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437' colspan='6' style='border-top:.5pt solid black;'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+ </tr>
+ </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+
+ <tr style='height:5pt'>
+  <td class='xl6326437' style='height:5pt;width:65pt'></td>
+  <td class='xl6326437' style='width:135pt'></td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' style='width:30pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:30pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:5pt'></td>
+  <td class='xl6326437' style='width:45pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt;font-weight:700'>สินค้าชื่อ:</td>
+  <td class='xl6726437' colspan='4' align='left' >${data.assemblyitem}</td>
+  <td class='xl7426437'>วันที่เตรียม</td>
+  <td class='xl6426437' colspan='2' align='left'>${data.date}</td>
+  <td class='xl6326437'></td>
+  <td class='xl7426437'>วันที่ผลิต</td>
+  <td class='xl6426437' colspan='2' align='left'>${data.trandate}</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt;font-weight:700'>จำนวนที่ผลิต:</td>
+  <td class='xl6726437' colspan='3' align='left' >${data.workno} ${data.unitwo}</td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437' colspan='2'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt;font-weight:700'>เลขที่ใบสำคัญ:</td>
+  <td class='xl6726437' colspan='4' align='left' >${record.tranid}</td>
+  <td class='xl7426437'>จำนวนบรรจุ:</td>
+  <td class='xl6326437' colspan='2' align='left'>${record.quantity}</td>
+  <td class='xl6326437'></td>
+  <td class='xl7426437'>Print by:</td>
+  <td class='xl6326437' colspan='2' align='left'>${data.userName}</td>
+ </tr>
+</table>
+	</macro>
+<macro id="nlfooter">
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+<tr style='height:10pt'>
+  <td class='xl6326437' align='left' style='height:10pt;width:50pt'></td>
+  <td class='xl6726437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' style='width:40pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:80pt'></td>
+  <td class='xl6326437' style='width:60pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt;width:70pt;font-weight:700'>หมายเหตุ</td>
+  <td class='xl6726437' colspan='11' style='width:170pt'>${record.memo}</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td colspan='12' class='xl7926437' style='height:14.4pt'>**น้ำหนักวัตถุดิบ&lt;1 กก. + 3%, 1-5 กก. + 2%, &gt; 5-15 กก. + 1.5%, &gt;15-50 กก. + 1.0%, &gt; 50 กก. + 0.5%</td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt'>สรุปผล</td>
+  <td class='xl6326437' align='left'>( ) ผ่าน</td>
+  <td class='xl6326437' colspan='6' align='left'>( ) รายการวัตถุดิบครบถ้วนตามสูตรแม่บท</td>
+  <td class='xl6326437' align='left'>( ) ไม่ผ่าน</td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+ </tr>
+ </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+<tr style='height:2pt'>
+  <td class='xl6326437' align='left' style='height:2pt;width:25pt'></td>
+  <td class='xl6726437' style='width:70pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:25pt'></td>
+  <td class='xl6326437' style='width:70pt'></td>
+  <td class='xl6326437' style='width:70pt'></td>
+  <td class='xl6326437' style='width:20pt'></td>
+  <td class='xl6326437' style='width:30pt'></td>
+  <td class='xl6326437' style='width:75pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:50pt'></td>
+  <td class='xl6326437' style='width:35pt'></td>
+ </tr>
+ <tr style='height:14.4pt'>
+  <td class='xl6326437' align='left' style='height:14.4pt'>ลงชื่อ</td>
+  <td class='xl6826437'></td>
+  <td class='xl6326437' align='left'>ผู้จัดเตรียม</td>
+  <td class='xl6326437' align='right'>ลงชื่อ</td>
+  <td class='xl6826437'></td>
+  <td class='xl6326437' colspan='2' align='left'>ผู้ตรวจสอบ/ผู้ผลิตสินค้า</td>
+  <td class='xl6326437' align='left'>ลงชื่อ</td>
+  <td class='xl6826437'></td>
+  <td class='xl6326437' colspan='3' align='right'>ตรวจสอบโดยหัวหน้างาน/ผจก.ผลิต</td>
+ </tr>
+ <#assign today = .now />
+ <tr style='height:18pt'>
+  <td colspan='3' class='xl7926437' style='height:18pt'>Print Date: ${today?string["dd/MM/yyyy"]} ${today?string["hh:mm"]}</td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td class='xl6326437'></td>
+  <td colspan='4' align='right' class='xl6726437'>QMS-FM-31-019(R03.,01/11/2019)</td>
+ </tr>
+ </table>
+	</macro>
+</macrolist>
+<style type="text/css">
+	*{
+	font-family: NotoSans, NotoSansThai, sans-serif;
+	}
+
+.xl1526437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;}
+.xl6326437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6426437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6526437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl6626437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl6726437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6826437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt dotted black;
+	border-left:none;
+	white-space:nowrap;}
+.xl6926437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7026437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7126437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7226437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:right;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7326437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:right;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7426437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	text-align:right;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl7526437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:nowrap;}
+.xl7626437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:nowrap;}
+.xl7726437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7826437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:nowrap;}
+.xl7926437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:8.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl8026437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:nowrap;}
+.xl8126437
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:nowrap;}
+
+</style>
+</head>
+
+<body header="nlheader" header-height="20%" footer="nlfooter" footer-height="18%" padding="0.15in 0.2in 0.2in 0.2in" size="A5-landscape">
+
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+
+ <tr style='height:16pt'>
+  <td rowspan='2' align='center' class='xl6526437' style='border-bottom:.5pt solid black;height:34pt;width:25pt'>ลำดับ</td>
+  <td align='center' rowspan='2' class='xl6526437' style='border-bottom:.5pt solid black;width:2pt'></td>
+  <td colspan='2' align='center' rowspan='2' class='xl6526437' style='border-bottom:.5pt solid black;width:177pt;border-left:none'>รายการ</td>
+  <td align='center' rowspan='2' class='xl6526437' style='border-bottom:.5pt solid black;width:2pt;border-left:none'></td>
+  <td rowspan='2' align='center' class='xl6526437' style='border-bottom:.5pt solid black;width:65pt'>Lot No.</td>
+  <td class='xl6526437' rowspan='2' align='center' style='width:55pt;border-bottom:.5pt solid black'>จำนวนในสูตร</td>
+  <td class='xl6526437' align='center' style='width:50pt'>จำนวนที่ชั่ง</td>
+  <td class='xl6526437' align='center' style='width:50pt'>รายการตาม</td>
+  <td align='center' class='xl6526437' style='width:45pt;border-bottom:none'>ภาชนะ</td>
+  <td class='xl6926437' align='center' style='width:55pt'>เวลามาตรฐาน</td>
+  <td align='center' class='xl7526437' style='width:44pt;border-bottom:none'>ช่วงเวลา</td>
+ </tr>
+ <tr style='height:16pt'>
+  <td class='xl6626437' align='center'>(กก)</td>
+  <td class='xl6626437' align='center'>สูตรแม่บท</td>
+  <td align='center' class='xl6526437' style='border-bottom:.5pt solid black;border-top:none'>บรรจุ</td>
+  <td class='xl7026437' align='center' style='border-right:.5pt solid black'>(min)</td>
+  <td align='center' class='xl7526437' style='border-top:none' >ผสม</td>
+ </tr>
+  <#assign x =1/>
+<#list data.item as item>
+ <tr style='height:20pt'>
+  <td class='xl7026437' align='center' style='height:20pt;font-size:8.5pt;'>${x?string("0")}</td>
+  <td class='xl7026437' align='center'></td>
+  <td colspan='2' class='xl7726437' align='left' style='border-left:none'>${item.itemname}</td>
+  <td class='xl7026437' align='center' style='border-left:none'></td>
+  <td class='xl7026437' align='center' style='font-size:8.5pt;'>${item.lotno}</td>
+  <td class='xl7226437' align='center' >${item.qty?number?string("#,##0.00")} ${item.unit}</td>
+  <td class='xl7226437' align='center' ></td>
+  <td class='xl7026437' align='center' ></td>
+  <td class='xl7026437' align='center' ></td>
+  <td class='xl7026437' align='center' style='border-right:.5pt solid black' >...</td>
+  <td class='xl7126437' align='center' style='border-right:.5pt solid black;border-left:none' ></td>
+ </tr>
+  <#assign x =x+1/>
+ </#list>
+
+
+</table>
+
+</body>
+
+</pdf>

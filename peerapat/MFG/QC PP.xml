@@ -1,0 +1,853 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+
+<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+<macrolist>
+    <macro id="nlheader">
+  <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+  <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:50pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:55pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:65pt'></td>
+  <td class='xl6315413' style='width:110pt'></td>
+ </tr>
+ <tr style='height:17pt'>
+  <td colspan='10' class='xl6715413' align='center' style='height:17pt;width:570pt;font-weight:700;font-size:9.8pt;'>ใบรายงานการผลิตสินค้าเคมี</td>
+ </tr>
+ <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td colspan='6' class='xl6715413' align='center'>(ใบรายงานการผลิต 1 ใบ ต่อการผลิต 1 Batch เท่านั้น)</td>
+  <td class='xl6315413' align='right'></td>
+ </tr> 
+ </table>
+	</macro>
+<macro id="nlfooter">
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+  <tr style='height:10pt'>
+  <td class='xl6315413' style='height:10pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td colspan='2' align='right' class='xl6715413'></td>
+ </tr>
+  </table>
+	</macro>
+</macrolist>
+<style type="text/css">
+	*{
+	font-family: NotoSans, NotoSansThai, sans-serif;
+	}
+
+.xl1515413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;}
+.xl6315413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6415413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6515413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6615413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:nowrap;}
+.xl6715413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl6815413
+	{padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	color:black;
+	font-size:9pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:nowrap;}
+
+</style>
+</head>
+
+<body header="nlheader" header-height="5%" footer="nlfooter" footer-height="2%" padding="0.2in 0.2in 0.2in 0.2in" size="A4">
+
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:50pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:55pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:65pt'></td>
+  <td class='xl6315413' style='width:110pt'></td>
+ </tr>
+ <tr style='height:14pt'>
+  <td class='xl6315413' style='height:14pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='9' class='xl6815413' style='height:20pt'>[ข้อมูลการผลิต]</td>
+  <td class='xl6815413' align='right' style='height:20pt;font-weight:400;'>หน้า 1/2</td>
+ </tr>
+ </table>
+<table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:110pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td class='xl6315413' align='left' style='height:18.5pt'>รหัสสูตร:</td>
+  <td colspan='3' class='xl6615413'>${data.billofmatno}</td>
+  <td class='xl6315413' align='left'>ชื่อสินค้า:</td>
+  <td colspan='3' class='xl6615413'>${data.itemname}</td>
+  <td class='xl6315413' align='left'>เลขที่ใบสำคัญ:</td>
+  <td class='xl6315413' align='left'>${data.wono}</td>
+ </tr>
+ </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:2pt'>
+  <td class='xl6315413' style='height:2pt;width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:55pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:90pt'></td>
+  <td class='xl6315413' style='width:65pt'></td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>1) ปริมาณวัตถุดิบจากใบเบิก:</td>
+  <td colspan='3' class='xl6515413'>${data.dmkg} Kg.</td>
+  <td colspan='2' class='xl6515413'>2) ปริมาณ Code 0 LOT NO:</td>
+  <td class='xl6315413' align='left'>${data.codelotno}</td>
+  <td class='xl6315413' align='left'>จำนวน(กก.):</td>
+  <td class='xl6315413' align='left'>${data.qtylotno}</td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>3) ปริมาณผลิต 1)+2):</td>
+  <td colspan='3' class='xl6515413'>${data.sumdmsm} Kg.</td>
+  <td colspan='2' class='xl6515413'>4) ถังผลิต/ชุดผลิต:</td>
+  <td class='xl6315413' align='left'>${data.tankno}</td>
+  <td class='xl6315413' align='left'>ถัง IBC เบอร์:</td>
+  <td class='xl6315413' align='left'>${data.ibcno}</td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>ความสะอาดของถังผสม:</td>
+  <td colspan='3' class='xl6515413'><#if data.checkcleanyes = 'true'>ผ่าน<#elseif data.checkcleanno = 'true'>ไม่ผ่าน<#else> </#if></td>
+  <td colspan='2' class='xl6515413'>ฝาครอบวาล์ว:</td>
+  <td class='xl6315413'><#if data.checkvalveyes = 'true'>มี<#elseif data.checkvalveno = 'true'>ไม่มี<#else> </#if></td>
+  <td class='xl6315413' align='left'></td>
+  <td class='xl6315413' align='left'></td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>5) การผสม: วันที่ผสม:</td>
+  <td colspan='3' class='xl6515413'>${data.startdate1} ${data.starttime1}</td>
+  <td class='xl6315413' align='left'>ถึง:</td>
+  <td class='xl6315413' colspan='2' align='left'>${data.startdate1} ${data.endtime1}</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+  </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ <tr style='height:24pt'>
+  <td colspan='2' class='xl6315413' align='left' style='height:24pt'>หมายเหตุ:</td>
+  <td colspan='6' align='left' class='xl6715413'>${data.remark1}</td>
+  <td class='xl6315413' align='left'>ลงชื่อ:</td>
+  <td class='xl6315413' align='left'>${data.emloyeename}</td>
+ </tr>
+ <tr style='height:10pt'>
+  <td class='xl6315413' style='height:10pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+  </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:30pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:90pt'></td>
+  <td class='xl6315413' style='width:90pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+ </tr>
+  <tr style='height:20pt'>
+  <td colspan='3' class='xl6815413' style='height:20pt'>[ข้อมูลการบรรจุ]</td>
+  <td colspan='7' class='xl6815413' style='height:20pt'>[ชื่อสินค้า(ขนาดบรรจุ)]</td>
+ </tr>
+   <tr style='height:5pt'>
+  <td colspan='10' class='xl6615413' style='height:5pt'></td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6615413' style='height:18.5pt'>วันที่บรรจุ:</td>
+  <td class='xl6615413'>2/44/33</td>
+  <td colspan='2' class='xl6615413'>เริ่มเวลา:</td>
+  <td class='xl6415413' align='left'>11:22:33 PM</td>
+  <td class='xl6315413' align='left'>เสร็จ:</td>
+  <td class='xl6415413' align='left'>2:44:55 PM</td>
+  <td class='xl6315413' align='left'>เลขที่ใบสำคัญ:</td>
+  <td class='xl6415413' align='left'>${data.wopcno}</td>
+ </tr>
+   </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:2pt'>
+  <td class='xl6315413' style='height:2pt;width:60pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>ฉลากก่อนบรรจุ LOT NO:</td>
+  <td colspan='3' class='xl6515413'>55/4/333</td>
+  <td colspan='2' class='xl6515413'>สภาพฉลาก/ภาชนะบรรจุ:</td>
+  <td class='xl6315413' align='left'>ปกติ</td>
+  <td class='xl6315413' align='left'>Package:</td>
+  <td class='xl6315413' align='left'>3.8 LIT</td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>จำนวนบรรจุตามสูตร:</td>
+  <td colspan='3' class='xl6515413'>120 gal</td>
+  <td colspan='2' class='xl6515413'>บรรจุจริง:</td>
+  <td class='xl6315413' align='left'>122 gal</td>
+  <td class='xl6315413' align='left'>ปริมาณสินค้าเศษนำมาบรรจุ:</td>
+  <td class='xl6315413' align='left'>2 กก.</td>
+ </tr>
+ <tr style='height:18.5pt'>
+  <td colspan='2' class='xl6515413' style='height:18.5pt'>คุณภาพการบรรจุ:</td>
+  <td colspan='3' class='xl6515413'>ผ่าน</td>
+  <td colspan='2' class='xl6515413'>กรณีไม่ผ่าน เนื่องจาก:</td>
+  <td class='xl6315413' colspan='3' align='left'>xxxx</td>
+ </tr>
+    </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:2pt'>
+  <td class='xl6315413' style='height:2pt;width:60pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:100pt'></td>
+  <td class='xl6315413' style='width:100pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+ </tr>
+ <tr style='height:18pt'>
+  <td colspan='2' class='xl6515413' style='height:18pt'>การคืน/เบิกเพิ่มเติม</td>
+  <td colspan='3' class='xl6515413'>ภาชนะบรรจุ:</td>
+  <td colspan='2' class='xl6515413'>แกลลอน</td>
+  <td class='xl6315413' align='left'>ฉลาก:</td>
+  <td colspan='2' class='xl6315413' align='left'>ใบ</td>
+ </tr>
+  <tr style='height:18pt'>
+  <td colspan='2' class='xl6515413' style='height:18pt'></td>
+  <td colspan='3' class='xl6515413'>กล่อง:</td>
+  <td colspan='2' class='xl6515413'>ใบ</td>
+  <td class='xl6315413' align='left'>อื่นๆ:</td>
+  <td colspan='2' class='xl6315413' align='left'>หน่วย</td>
+ </tr>
+   <tr style='height:18pt'>
+  <td colspan='2' class='xl6515413' style='height:18pt'></td>
+  <td colspan='3' class='xl6515413'>ปริมาณที่เหลือไม่ได้บรรจุ:</td>
+  <td colspan='2' class='xl6515413'>KG</td>
+  <td class='xl6315413' align='left'>0.005 kg</td>
+  <td colspan='2' class='xl6315413' align='left'></td>
+ </tr>
+ <tr style='height:24pt'>
+  <td colspan='2' class='xl6315413' align='left' style='height:24pt'>หมายเหตุ:</td>
+  <td colspan='6' align='left' class='xl6715413'>xxx</td>
+  <td class='xl6315413' align='left'>ลงชื่อ:</td>
+  <td class='xl6315413' align='left'>${data.emloyeename}</td>
+ </tr>
+   </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:5pt'>
+  <td class='xl6315413' style='height:5pt;width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:70pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ <tr style='height:7pt'>
+  <td class='xl6315413' style='height:7pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='10' class='xl6815413' style='height:20pt'>[การตรวจสอบผลที่ได้เทียบทฤษฎี] [P-885]</td>
+ </tr>
+   <tr style='height:5pt'>
+  <td colspan='10' class='xl6615413' style='height:5pt'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='2' class='xl6615413' style='height:20pt'>ปริมาณสินค้าที่ผลิตตามทฤษฎี</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413' align='left'>${data.stdqty} กก.</td>
+  <td colspan='6' class='xl6615413'>(ปริมาณสั่งบรรจุตามทฤษฎี)</td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='2' class='xl6515413' style='height:20pt'>ปริมาณสินค้าที่่ผลิตได้จริง</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413' align='left'>${data.actqty} กก.</td>
+  <td colspan='6' class='xl6515413'>(ปริมาณน้ำหนักบรรจุ x จำนวนบรรจุภัณฑ์ที่บรรจุได้)</td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='2' class='xl6515413' style='height:20pt'>%ค่าความผิดพลาด</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413' align='left'>${data.percyields} กก.</td>
+  <td colspan='6' class='xl6515413'>(จำนวนที่ผลิตได้ตามทฤษฎี - จำนวนสินค้าที่ผลิตได้จริง) / จำนวนที่ผลิตได้ตามทฤษฎี</td>
+ </tr>
+ <tr style='height:20pt'>
+  <td class='xl6315413' align='left' style='height:20pt'>**หมายเหตุ</td>
+  <td colspan='9' class='xl6515413'>เกณฑ์การยอมรับ +- ไม่เกิน 3% สำหรับเคมีน้ำ และ 2% สำหรับเคมีผง</td>
+ </tr>
+ <tr style='height:18pt'>
+  <td class='xl6315413' align='left' style='height:18pt'>สรุปผล</td>
+  <td class='xl6315413' align='left'>ผ่าน</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:10pt'>
+  <td class='xl6315413' style='height:10pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='10' class='xl6815413' style='height:20pt'>[กรณีไม่ผ่านตามเกณฑ์]</td>
+ </tr>
+   <tr style='height:5pt'>
+  <td colspan='10' class='xl6615413' style='height:5pt'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='2' class='xl6615413' style='height:20pt'>การหาสาเหตุ: สาเหตุที่พบ:</td>
+  <td colspan='8' class='xl6615413'>${record.custrecord_record_qc_reasoning}</td>
+ </tr>
+ <tr style='height:17pt'>
+  <td class='xl6315413' style='height:17pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413' align='left'></td>
+  <td class='xl6515413'></td>
+ </tr>
+ <tr style='height:14pt'>
+  <td class='xl6315413' style='height:14pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='2' class='xl6515413' style='height:20pt'>การตรวจสอบคุณภาพซ้ำ:</td>
+  <td colspan='8' class='xl6515413'>${record.custrecord__qc_repeat_check}</td>
+ </tr>
+ <tr style='height:17pt'>
+  <td class='xl6315413' align='left' style='height:17pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:17pt'>
+  <td class='xl6315413' align='left' style='height:17pt'>สรุปผล</td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413' align='left'>ลงชื่อ:</td>
+  <td class='xl6515413'>reeee</td>
+ </tr>
+ <tr style='height:14pt'>
+  <td class='xl6315413' style='height:14pt'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+  <td class='xl6315413'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td colspan='10' class='xl6815413' style='height:20pt'>[ฝ่ายโลจิสติกส์]</td>
+ </tr>
+  <tr style='height:5pt'>
+  <td colspan='10' class='xl6615413' style='height:5pt'></td>
+ </tr>
+ <tr style='height:20pt'>
+  <td class='xl6315413' align='left' style='height:20pt'>วันที่รับแจ้ง:</td>
+  <td colspan='7' class='xl6615413'>${record.custrecord_qc_date_check?string["dd/MM/yyyy"]}</td>
+  <td class='xl6315413' align='left'>ลงชื่อ:</td>
+  <td class='xl6615413'>หฟฟ</td>
+ </tr>
+ <tr style='height:20pt'>
+  <td class='xl6315413' align='left' style='height:20pt'>หมายเหตุ:</td>
+  <td colspan='9' class='xl6515413'>${record.custrecord_qc_additional_check}</td>
+ </tr>
+  <tr style='height:20pt'>
+  <td colspan='10' class='xl6515413' style='height:20pt'></td>
+ </tr>
+</table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:20pt'>
+  <td class='xl6315413' style='height:20pt;width:115pt;border-bottom:.5pt solid black;font-weight:700'>[สำหรับแผนกควบคุมคุณภาพ]</td>
+  <td class='xl6315413' style='width:35pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' align='right' style='width:120pt'>หน้า 2/2</td>
+ </tr>
+  <tr style='height:10pt'>
+  <td class='xl6315413' style='height:10pt;width:60pt;font-weight:700;'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+ </tr>
+</table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:20pt'>
+  <td class='xl6315413' style='height:20pt;width:60pt;font-weight:700;'>ตรวจสอบครั้งที่</td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:80pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+ </tr>
+  <tr style='height:20pt'>
+  <td class='xl6315413' align='center' style='height:20pt;border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>ครั้งที่</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>เลขที่ QC</td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>วันที่</td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>เริ่ม</td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>เสร็จ</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black'>ผลการตรวจ</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;border-right:.5pt solid black'>หลังปรับแก้</td>
+ </tr>
+  <#assign x =1/>
+ <#list data.item as item>
+   <tr style='height:22pt'>
+  <td class='xl6315413' align='center' style='height:22pt;border-bottom:.5pt solid black;border-left:.5pt solid black'>${x?string("0")}</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>${item.itemname}</td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black'></td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>${item.starttime}</td>
+  <td class='xl6315413' align='center' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>${item.endtime}</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>${item.qcstatus}</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-right:.5pt solid black'></td>
+ </tr>
+   <#assign x =x+1/>
+ </#list>
+   <tr style='height:20pt'>
+  <td colspan='10' class='xl6515413' style='height:20pt'></td>
+ </tr>
+</table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:20pt'>
+  <td class='xl6315413' style='height:20pt;width:115pt;border-bottom:.5pt solid black;font-weight:700'>[สำหรับแผนกควบคุมคุณภาพ]</td>
+  <td class='xl6315413' style='width:35pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+  <tr style='height:10pt'>
+   <td class='xl6315413' colspan='2' style='height:10pt;width:115pt;font-weight:700'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ <tr style='height:20pt'>
+   <td class='xl6315413' colspan='2' style='height:20pt;width:115pt;font-weight:700'>[ผลการตรวจสอบคุณภาพสินค้า]</td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+</table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+ <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:90pt'>ph:</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_ph}</td>
+  <td class='xl6315413' style='width:50pt'>%Brix:</td>
+  <td class='xl6315413' style='width:60pt'>${record.custrecord_qci_brix}</td>
+  <td class='xl6315413' colspan='2' style='width:150pt'>ความหนืด(ที่ 30 c)</td>
+  <td class='xl6315413' style='width:50pt'>2.39</td>
+  <td class='xl6315413' style='width:60pt'>min</td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+ </tr>
+  <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>ฟอง:</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_fong}</td>
+  <td class='xl6315413' style='width:30pt'>สี:</td>
+  <td class='xl6315413' style='width:60pt'>${record.custrecord_qci_color}</td>
+  <td class='xl6315413' colspan='2' style='width:30pt'>กลื่น:</td>
+  <td class='xl6315413' style='width:50pt'>%CL2:</td>
+  <td class='xl6315413' style='width:50pt'>0</td>
+  <td class='xl6315413' style='width:40pt'>%O2:</td>
+  <td class='xl6315413' style='width:120pt'>0</td>
+ </tr>
+   <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>Act.Acd (%Na2O):</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_actualacd}</td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' colspan='2' style='width:30pt'>Tot.Acd (%Na2O):</td>
+  <td class='xl6315413' style='width:50pt'>${record.custrecord_qci_totacd}</td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+    <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>Act.Alk (%Na2O):</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_actualalk}</td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' colspan='2' style='width:30pt'>Tot.Alk (%Na2O):</td>
+  <td class='xl6315413' style='width:50pt'>${record.custrecord_qci_totalk}</td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+     <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>%NaOH:</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_naoh}</td>
+  <td class='xl6315413' style='width:30pt'>%HCL:</td>
+  <td class='xl6315413' style='width:60pt'>${record.custrecord_qci_hcl}</td>
+  <td class='xl6315413' colspan='2' style='width:30pt'>Total Cationic:</td>
+  <td class='xl6315413' style='width:50pt'>${record.custrecord_qci_totcationic}</td>
+  <td class='xl6315413' style='width:50pt'>Total Anionic:</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_totanionic}</td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+     <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>SG:</td>
+  <td class='xl6315413' style='width:40pt'>${record.custrecord_qci_naoh}</td>
+  <td class='xl6315413' style='width:30pt'>pH 1%:</td>
+  <td class='xl6315413' style='width:60pt'>${record.custrecord_qci_hcl}</td>
+  <td class='xl6315413' colspan='2' style='width:30pt'>pH 0.1%:</td>
+  <td class='xl6315413' style='width:50pt'>${record.custrecord_qci_totcationic}</td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+       <tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt'>อื่นๆ:</td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+<tr style='height:18pt'>
+  <td class='xl6315413' style='height:18pt;width:100pt;font-weight:700'>สรุปผล:</td>
+  <td class='xl6315413' style='width:40pt'>ผ่าน</td>
+  <td class='xl6315413' style='font-weight:700'>หลังปรับแก้:</td>
+  <td class='xl6315413' style='width:60pt'>ผ่าน</td>
+  <td class='xl6315413' colspan='2' style='font-weight:700'>จำนวนครั้งปรับแก้:</td>
+  <td class='xl6315413' style='width:50pt'>1</td>
+  <td class='xl6315413' style='width:50pt'>ครั้ง</td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+<tr style='height:22pt'>
+  <td class='xl6315413' style='height:22pt;font-weight:700'>บันทึก:</td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ <tr style='height:10pt'>
+  <td class='xl6315413' style='height:10pt;font-weight:700'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+<tr style='height:22pt'>
+  <td class='xl6315413' colspan='4' style='height:22pt;font-weight:700;border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;'>&nbsp;เข้า Code 0 Lot No.:</td>
+  <td class='xl6315413' colspan='6' style='width:30pt;font-weight:700;border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;border-right:.5pt solid black'>&nbsp;อื่นๆ:</td>
+ </tr>
+  <tr style='height:10pt'>
+   <td class='xl6315413' colspan='2' style='height:10pt;width:115pt'></td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ <tr style='height:20pt'>
+   <td class='xl6315413' colspan='2' style='height:20pt;width:115pt;font-weight:700'>[เบิกวัตถุดิบเพิ่มเติม]</td>
+  <td class='xl6315413' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ </table>
+ <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:570pt'>
+   <tr style='height:20pt'>
+  <td class='xl6315413' align='center' style='height:20pt;border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;width:60pt'>ครั้งที่</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;width:120pt'>รหัสหลัก</td>
+  <td class='xl6315413' align='center' colspan='5' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;width:280pt'>รายการ</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-top:.5pt solid black;border-right:.5pt solid black;width:110pt'>ปริมาณ (กก.)</td>
+ </tr>
+    <tr style='height:20pt'>
+  <td class='xl6315413' align='center' style='height:20pt;border-bottom:.5pt solid black;border-left:.5pt solid black'>1</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>134531</td>
+  <td class='xl6315413' align='center' colspan='5' style='border-bottom:.5pt solid black;border-left:.5pt solid black'>water</td>
+  <td class='xl6315413' align='center' colspan='2' style='border-bottom:.5pt solid black;border-left:.5pt solid black;border-right:.5pt solid black'>5</td>
+ </tr>
+   <tr style='height:10pt'>
+   <td class='xl6315413' style='height:10pt;width:115pt;font-weight:700'></td>
+  <td class='xl6315413' colspan='2' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt;font-weight:700'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+  <tr style='height:20pt'>
+   <td class='xl6315413' style='height:20pt;width:115pt;font-weight:700'>ผู้ตรวจสอบ:</td>
+  <td class='xl6315413' colspan='2' style='width:20pt'></td>
+  <td class='xl6315413' style='width:60pt'></td>
+  <td class='xl6315413' style='width:30pt'></td>
+  <td class='xl6315413' style='width:50pt;font-weight:700'>ผู้อนุมัติ:</td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:50pt'></td>
+  <td class='xl6315413' style='width:40pt'></td>
+  <td class='xl6315413' style='width:120pt'></td>
+ </tr>
+ </table>
+</body>
+
+</pdf>

@@ -1,0 +1,544 @@
+<pdf>
+  <head>
+    <link name='NotoSansThai' type='font' subtype='opentype' src='${nsfont.NotoSansThai_Regular}' src-bold='${nsfont.NotoSansThai_Bold}' bytes='2' />
+    <macrolist>
+      <macro id='nlheader'>
+        <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+          <tr>
+            <td width='30pt'></td>
+            <td width='50pt'></td>
+            <td width='45pt'></td>
+            <td width='45pt'></td>
+            <td width='50pt'></td>
+            <td width='70pt'></td>
+            <td width='80pt'></td>
+            <td width='90pt'></td>
+            <td width='30pt'></td>
+            <td width='30pt'></td>
+          </tr>
+
+          <tr>
+            <td colspan='10' align='right' vertical-align='top'>
+              <img style='object-fit: contain;width: 200px;height:113px;' src='${data.logoUrl}' />
+            </td>
+          </tr>
+
+          <tr style='height: 16pt'>
+            <td class='xl64'></td>
+            <td class='xl64'>วันที่</td>
+            <td class='xl64' colspan='4'>${record.custrecord_ldb_date}</td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl64'>ถึง</td>
+            <td class='xl64' colspan='5'>${record.custrecord_ldb_customer.companyname}</td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+          <tr height='21' style='height: 16pt'>
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+          <tr height='21' style='height: 16pt'>
+
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl64'>อ้างอิง</td>
+            <td class='xl64' colspan='8'>${record.custrecord_ldb_customer.companyname} ผู้กู้</td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td colspan='2'></td>
+            <td colspan='8' rowspan='2' class='xl64' word-break='break-all' white-space='normal'>สัญญากู้ยืมเงิน ลงวันที่
+              ${record.custrecord_ldb_agreement_date} ระหว่าง <br /> ${record.custrecord_ldb_customer.companyname} ผู้กู้ และ บริษัท อัลฟ่า เอกซ์ จำกัด (ผู้ให้กู้)</td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td height='21' class='xl64' style='height: 16pt'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+          <tr style='height: 16pt'>
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl64'></td>
+            <td class='xl64' colspan='4'>วันที่ครบกำหนดชำระ ${record.custrecord_ldb_payment_date}</td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+          <tr height='21' style='height: 16pt'>
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+            <td class='xl64'></td>
+          </tr>
+
+
+          <tr height='21' style='height: 16pt'>
+            <td class='xl64' style='height: 16pt'></td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'>&#160;</td>
+            <td class='xl65'></td>
+          </tr>
+        </table>
+      </macro>
+      <macro id='nlfooter'> </macro>
+    </macrolist>
+    <style type='text/css'>
+          *{
+              font-family: NotoSans, NotoSansThai, sans-serif;
+              }
+        .style0
+          {
+          text-align:general;
+          vertical-align:bottom;
+          white-space:nowrap;
+          
+          
+          
+          color:black;
+          font-size:9.0pt;
+          font-weight:400;
+          font-style:normal;
+          text-decoration:none;
+          font-family:Calibri, sans-serif;
+          
+          border:none;}
+        td
+          {
+          padding-top:1px;
+          padding-right:1px;
+          padding-left:1px;
+          
+          color:black;
+          font-size:9.0pt;
+          font-weight:400;
+          font-style:normal;
+          text-decoration:none;
+          font-family:Calibri, sans-serif;
+          
+          
+          text-align:general;
+          vertical-align:bottom;
+          border:none;
+          
+          
+          
+          white-space:nowrap;
+          }
+        .xl63
+          {
+          text-align:center;
+          vertical-align:middle;}
+        .xl64
+          {
+          text-align:left;
+          vertical-align:middle;}
+        .xl65
+          {
+          text-align:left;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:none;
+          border-bottom:none;
+          border-left:none;}
+        .xl66
+          {
+          text-align:left;
+          vertical-align:middle;
+          white-space:normal;}
+        .xl67
+          {
+          text-align:left;
+          vertical-align:middle;
+          border-top:none;
+          border-right:.5pt solid ;
+          border-bottom:.5pt solid ;
+          border-left:none;}
+        .xl68
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:none;
+          border-bottom:none;
+          border-left:none;}
+        .xl69
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:none;
+          border-bottom:none;
+          border-left:.5pt solid ;}
+        .xl70
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:.5pt solid ;
+          border-bottom:none;
+          border-left:none;}
+        .xl71
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:none;
+          border-right:none;
+          border-bottom:.5pt solid ;
+          border-left:.5pt solid ;}
+        .xl72
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:none;
+          border-right:none;
+          border-bottom:.5pt solid ;
+          border-left:none;}
+        .xl73
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:none;
+          border-right:.5pt solid ;
+          border-bottom:.5pt solid ;
+          border-left:none;}
+        .xl74
+          {
+          text-align:left;
+          vertical-align:middle;
+          border-top:none;
+          border-right:.5pt solid ;
+          border-bottom:.5pt solid ;
+          border-left:.5pt solid ;}
+        .xl75
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:.5pt solid ;
+          border-bottom:none;
+          border-left:.5pt solid ;}
+        .xl76
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:none;
+          border-right:.5pt solid ;
+          border-bottom:.5pt solid ;
+          border-left:.5pt solid ;}
+        .xl77
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:none;
+          border-bottom:.5pt solid ;
+          border-left:.5pt solid ;}
+        .xl78
+          {
+          text-align:center;
+          vertical-align:middle;
+          border-top:.5pt solid ;
+          border-right:.5pt solid ;
+          border-bottom:.5pt solid ;
+          border-left:none;}
+        .xl79
+          {
+          text-align:left;
+          vertical-align:middle;
+          border:.5pt solid ;}
+      </style>
+  </head>
+
+  <body header='nlheader' header-height='26%' footer='nlfooter' footer-height='9%' padding='0.2in 0.2in 0.2in 0.2in' size='A4'>
+
+    <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+
+      <tr height='21'>
+        <td width='30pt'></td>
+        <td width='50pt'></td>
+        <td width='45pt'></td>
+        <td width='45pt'></td>
+        <td width='50pt'></td>
+        <td width='70pt'></td>
+        <td width='80pt'></td>
+        <td width='90pt'></td>
+        <td width='30pt'></td>
+        <td width='30pt'></td>
+      </tr>
+
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64' colspan='9'>เรียน ${record.custrecord_ldb_customer.companyname} ผู้กู้</td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='9' rowspan='2' class='xl66' width='783' style='width: 585pt'>&#160;&#160;&#160;&#160; บริษัท อัลฟ่า เอกซ์ จำกัด ขอเรียนแจ้งยอดการชำระเงินจำนวน
+          ${data.totalAmount?number?string("#,##0.00")} บาท <br /> บริษัทฯจะทำการหักบัญชี ${record.custrecord_ldb_customer_bank_account} ในวันที่
+          ${record.custrecord_ldb_payment_date} <br />เพื่อชำระเงิน โดยมีรายละเอียดดังต่อไปนี้ </td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+
+    </table>
+    <table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;table-layout:fixed;width:565pt'>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt' width='30pt'></td>
+        <td rowspan='2' colspan='2' class='xl79' align='center'>เลขที่</td>
+        <td colspan='2' class='xl79' align='center' width='120pt' style='border-left: none'>งวด</td>
+        <td rowspan='2' class='xl79' align='center' width='60pt' style='border-bottom: 0.5pt solid black; border-left: none'>เงินต้น</td>
+        <td rowspan='2' class='xl79' align='center' width='60pt' style='border-bottom: 0.5pt solid black; border-left: none'>ดอกเบี้ย</td>
+        <td rowspan='2' class='xl79' align='center' width='60pt' style='border-bottom: 0.5pt solid black; border-left: none'>ค่าธรรมเนียม</td>
+        <td rowspan='2' colspan='2' class='xl79' align='center' style='border-left: none'>รวม</td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl74' align='center' style='border-left: none'>จาก</td>
+        <td class='xl67' align='center'>ถึง</td>
+        <td class='xl64'></td>
+      </tr>
+      <#assign total = 0/>
+
+      <#list data.accountArr as acc>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='2' class='xl77' style='border-right: 0.5pt solid black; border-top: none'>&#160;${acc.accountno}</td>
+        <td class='xl79' align='right' style='border-top: none; border-left: none'>${acc.periodFrom}&#160;</td>
+        <td class='xl79' align='right' style='border-top: none; border-left: none'>${acc.periodTo}&#160;</td>
+        <td class='xl79' align='right' style='border-top: none; border-left: none'>${acc.principal?number?string("#,##0.00")}&#160;</td>
+        <td class='xl79' align='right' style='border-top: none; border-left: none'>${acc.interest?number?string("#,##0.00")}&#160;</td>
+        <td class='xl79' align='right' style='border-top: none; border-left: none'>${acc.fee?number?string("#,##0.00")}&#160;</td>
+        <td colspan='2' class='xl77' align='right' style='border-right: 0.5pt solid black; border-left: none; border-top: none'>${acc.totalAmount?number?string("#,##0.00")}&#160;</td>
+        <td class='xl64'></td>
+      </tr>
+      <#assign total = total + acc.totalAmount?replace(",","")?number/> </#list>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='2'>&#160;</td>
+        <td style='border-left: none'>&#160;</td>
+        <td style='border-left: none'>&#160;</td>
+        <td style='border-left: none'>&#160;</td>
+        <td style='border-left: none'>&#160;</td>
+        <td class='xl74' align='center'>รวม</td>
+        <td colspan='2' class='xl74' align='right' style='border-left: none'>${total?number?string("#,##0.00")}&#160;</td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='9' class='xl64'>จึงเรียนมาเพื่อโปรดทราบ</td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='9' class='xl64'>ขอแสดงความนับถือ</td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td class='xl72' colspan='2' rowspan='3'>
+        <img src='${data.signUrl}' />
+        </td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td height='21' class='xl64' style='height: 16pt'></td>
+        <td colspan='2' class='xl64'>(${company.signName})</td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td colspan='3' class='xl64'>${company.position}</td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td colspan='3' class='xl64'>บริษัท อัลฟ่า เอกซ์ จำกัด</td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td colspan='3' class='xl64'>ผู้ให้กู้</td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+      <tr height='21' style='height: 16pt'>
+        <td class='xl64' style='height: 16pt'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+        <td class='xl64'></td>
+      </tr>
+
+      <tr height='0' style='display: none'>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+        <td width='87' style='width: 65pt'></td>
+      </tr>
+    </table>
+  </body>
+</pdf>
